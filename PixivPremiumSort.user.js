@@ -2,7 +2,7 @@
 // @name        PixivPremiumSort
 // @namespace   WallStudio
 // @description Pixivの人気順ソートができないのが不便なので
-// @include     http://www.pixiv.net/search.php?word=%E3%82%86%E3%81%8B%E3%83%9E%E3%82%AD&order=date_d
+// @include     http://www.pixiv.net/search.php*
 // @version     1
 // @grant       none
 // ==/UserScript==
