@@ -8,3 +8,12 @@ Pixivの人気順ソートができないのが不便なので
 
 ## インストール
 [https://github.com/wallstudio/PixivPremiumSort/raw/master/PixivPremiumSort.user.js](https://github.com/wallstudio/PixivPremiumSort/raw/master/PixivPremiumSort.user.js)
+
+## 使い方
+1. このボタン（右端）を押してください  
+
+![ボタン](https://wallstudio.github.io/PixivPremiumSort/button.png)
+
+2. こうなります（読み込みに数十秒～数分がかかるのでパンツを履いて待っていてください）
+
+![サンプル](https://wallstudio.github.io/PixivPremiumSort/sample.png)
