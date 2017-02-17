@@ -1,4 +1,14 @@
-(function () {
+// ==UserScript==
+// @name        PixivPremiumSort
+// @namespace   WallStudio
+// @description Pixivの人気順ソートができないのが不便なので
+// @include     http://www.pixiv.net/search.php?word=%E3%82%86%E3%81%8B%E3%83%9E%E3%82%AD&order=date_d
+// @version     1
+// @grant       none
+// ==/UserScript==
+var pixivPremiumSortButton = document.getElementsByClassName("column-order-menu")[0].getElementsByClassName("menu-items")[0].appendChild(document.createElement("li"));
+pixivPremiumSortButton.innerHTML= "<a>PixivPremiumSort</a>";
+pixivPremiumSortButton.addEventListener("click",function () {
   let getPage = function (url) {
     let xhr = new XMLHttpRequest();
     xhr.open('GET', url, true);
@@ -53,4 +63,4 @@
   let list = document.getElementsByClassName('_image-items') [0];
   getPage(urlBase + counter);
   
-}());
+});
