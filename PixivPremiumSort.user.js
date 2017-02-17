@@ -47,7 +47,7 @@ pixivPremiumSortButton.addEventListener("click",function () {
         let star = parseInt(list.childNodes[j].getElementsByClassName("bookmark-count")[0]
                             .innerHTML.match(/[0-9]+$/)[0]);
         if(star > max){
-          maxNo = star;
+          max = star;
           maxNo = j;
         }  
       }
